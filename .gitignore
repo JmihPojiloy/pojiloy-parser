@@ -1,0 +1,61 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+*.ide
+*.vs/
+.vscode/
+*.csproj.user
+
+# Rider
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries/*
+.idea/**/fileTemplates/*
+.idea/**/shelf/
+.idea/**/runConfigurations/*
+.idea/**/dataSources.xml
+.idea/**/dataSources/
+.idea/**/sqlDataSources.xml
+.idea/**/sqlDataSources/
+.idea/**/dictionaries/
+.idea/**/plugins/
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Visual Studio
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+
+# Logs
+*.log
+
+# Others
+*.db
+*.pdb
+*.cache
+*.tmp
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+publish/
+
+# User secrets
+secrets.json
+
+# IDE-specific files
+*.sln
+*.user
+
