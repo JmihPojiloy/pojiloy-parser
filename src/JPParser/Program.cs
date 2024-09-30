@@ -26,8 +26,6 @@ public static class Program
         // Инициализация
         int emailCount = 0;
 
-        //string logFileName = _configuration["LogFileName"]!;
-
         var emailSettings = _configuration.GetSection("EmailSettings")!;
 
         var emailParameters = new Dictionary<string, string>();
@@ -39,8 +37,7 @@ public static class Program
         emailParameters.Add("SmtpHost", emailSettings["SmtpHost"]!);
         emailParameters.Add("EnableSsl", emailSettings["EnableSsl"]!);
         emailParameters.Add("SmtpPort", emailSettings["SmtpPort"]!);
-
-        //var commands = _configuration.GetSection("Commands").GetChildren();
+        
         string logparserPath = Path.Combine(projectDirectory, "parser", "LogParser.exe");
 
         var commandPrepare = _configuration.GetSection("report");
